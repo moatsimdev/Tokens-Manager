@@ -1,0 +1,21 @@
+{
+  "name": "detector",
+  "version": "1.0.0",
+  "description": "detect spam",
+  "main": "./scr/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "test"
+  },
+  "author": "Culda",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.16.0",
+    "discord.js": "^14.13.0",
+    "discord.js-selfbot-v13": "^2.14.9",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "pro.db": "^3.0.8"
+  }
+}
